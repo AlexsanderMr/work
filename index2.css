@@ -1,0 +1,49 @@
+.red{
+    color: red;
+}
+.green{
+    color: green;
+}
+.blue{
+    color: blue;
+}
+.black{
+    color: black;
+}
+.blue, .green, .red, .black{
+    font-size: 20px;
+    font-family: 'Supermercado One', cursive;
+}   
+a:hover{
+    color: rgb(255, 255, 255);
+}
+li{
+display: inline-block;
+font-size: 20px;
+}
+a{
+    text-decoration: none;
+    background-color: rgb(255, 255, 255);
+}
+   .outer{
+    display: inline-block;
+    border-style: dotted;
+    border-color: rgb(0, 255, 213);
+    border-width: 10px;
+    width: auto;
+    height: auto;
+    margin: 0 auto;
+    border-radius: 50px   ;
+   
+}
+.inner{
+    display: inline-block;
+    
+    border-style: dotted;
+    border-color: rgb(94, 255, 0), 19, 228);
+    border-width: 10px;
+    width: 500px;
+    height: 470px;
+    margin: 0 auto;
+    border-radius: 15px   ;
+}
